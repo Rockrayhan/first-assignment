@@ -13,7 +13,7 @@ h1 {
  .link-button { 
     text-decoration: none;
     background-image: linear-gradient(to right ,tomato, orange );
-    padding: 10px 40px;
+    padding: 15px 40px;
     border-radius: 5px;
     font-weight: 700 ;
     color: white;
@@ -33,14 +33,19 @@ h1 {
  .flexible-container { 
 
      display: flex;
-     
+     margin-bottom: 50px;
      
  }
 
- .top-banner { 
-    background-image: url(images/shapes/mid\ banner.jpg);
+ .mid-banner { 
+    background-image: url(images/mid\ banner.jpg);
     background-repeat: no-repeat;
     border-radius: 5px;
+    height: 450px;
+    padding-top: 60px;
+   
+
+
  }
 
  .centered-text { 
@@ -59,13 +64,13 @@ h1 {
  }
 
  .box-allign img { 
-     height: 200px;
+     height: 250px;
      
  }
  
 footer {
     background-color:rgba(0, 0, 32, 0.952);
-    height: 250px;  
+    height: 250px;    
 }
  
 
@@ -88,3 +93,5 @@ ul {
     padding: 14px 16px;
     text-decoration: none;
   }
+
+  
